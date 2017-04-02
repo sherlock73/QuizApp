@@ -60,7 +60,7 @@
         android:id="@+id/answer_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Répo ..."
+        android:hint="Answer here ..."
         android:paddingBottom="@dimen/myPadding"/>
     <ImageView
             style="@style/Category"
@@ -136,7 +136,7 @@
         android:id="@+id/answer_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Réponse ..."
+        android:hint="Answer here ..."
         android:paddingBottom="@dimen/myPadding"/>
 
         <ImageView
@@ -255,7 +255,7 @@
         android:id="@+id/answer_6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Réponse ..."
+        android:hint="Answer here ..."
         android:paddingBottom="@dimen/myPadding"/>
     <ImageView
         android:background="@color/colorAccent"
@@ -326,7 +326,7 @@
         android:id="@+id/answer_8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Réponse ..."
+        android:hint="Answer here ..."
         android:paddingBottom="@dimen/myPadding"/>
 
 
@@ -370,7 +370,7 @@
             android:id="@+id/answer_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Alexandre Fleming"
+            android:text="Alexander Fleming"
             />
     </RadioGroup>
 
@@ -401,7 +401,7 @@
         android:id="@+id/answer_10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Réponse ..."
+        android:hint="Answer here ..."
         android:paddingBottom="@dimen/myPadding"/>
 
     <Button
