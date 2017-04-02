@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title_name">GENERAL KNOWLEDGE QUIZ!</string>
+<string name="appFont"></string>
+    <string name="description">You have 10 questions to answer, 10 different subjects, you get 1 point for every correct answer, try to do your best ! </string>
+    <string name="question1">Who was Napoleon ?</string>
+    <string name="question2">Who was the top scorer in the FIFA World Cup 1970 ?</string>
+    <string name="question3">Complete this movie title : \"One Million Dollars : ...\" </string>
+    <string name="question4">Who are the two smallest countries from this list ?</string>
+    <string name="question5">Who sang \"Feeling good\" ?</string>
+    <string name="question6">Who wrote \"Anna Karenina\" ?</string>
+    <string name="question7">In which TV shows we can find Scientists ?</string>
+    <string name="question8">In which country \"Sushis\" are the national meal?</string>
+    <string name="question9">Who discovered \"Penicillin\" ?</string>
+    <string name="question10">Who\'s known to be the founder of the \"Cubisme\" ?</string>
+
+
+
+
+</resources>

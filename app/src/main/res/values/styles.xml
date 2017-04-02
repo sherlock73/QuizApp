@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Title">
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item name="android:fontFamily">c</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:paddingTop">@dimen/myPadding</item>
+        <item name="android:paddingBottom">@dimen/myPadding</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="Description">
+        <item name="android:paddingBottom">@dimen/myPadding</item>
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Category">
+        <item name="android:layout_width">@dimen/categorySize</item>
+        <item name="android:layout_height">@dimen/categorySize</item>
+        <item name="android:layout_gravity">center</item>
+
+        <item name="android:padding">@dimen/myPadding2</item>
+    </style>
+
+    <style name="Number">
+        <item name="android:layout_width">@dimen/numberSize</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+
+    <style name="Question" >
+        <item name="android:paddingLeft">@dimen/myPadding</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">10</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:lines">4</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:fontFamily">@string/appFont</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textColor">@color/colorAccent2</item>
+        <item  name="android:textStyle">bold</item>
+    </style>
+</resources>

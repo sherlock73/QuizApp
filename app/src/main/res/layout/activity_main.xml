@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.quizapp.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_name"
+
+      style="@style/Title"
+        />
+
+    <TextView
+        android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/description"
+    style="@style/Description"
+
+     />
+
+
+    <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Category"
+            android:src="@drawable/history"
+             />
+
+        <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Number"
+          android:src="@drawable/un"
+            />
+
+            <TextView
+
+             style="@style/Question"
+            android:text="@string/question1"
+                 />
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Répo ..."
+        android:paddingBottom="@dimen/myPadding"/>
+    <ImageView
+            style="@style/Category"
+            android:src="@drawable/foot"
+            android:background="@color/colorAccent2"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:background="@color/colorAccent2"
+                style="@style/Number"
+                android:src="@drawable/two"
+                />
+            <TextView
+
+                style="@style/Question"
+                android:text="@string/question2"
+              />
+
+
+        </LinearLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/answer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muller"
+           />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beckenbauer" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maradona"
+            />
+    </RadioGroup>
+
+
+    <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Category"
+            android:src="@drawable/cinema"
+             />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:background="@color/colorAccent"
+                style="@style/Number"
+                android:src="@drawable/three"
+                />
+
+            <TextView
+
+                style="@style/Question"
+                android:text="@string/question3"
+                />
+        </LinearLayout>
+
+    <EditText
+        android:id="@+id/answer_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Réponse ..."
+        android:paddingBottom="@dimen/myPadding"/>
+
+        <ImageView
+            style="@style/Category"
+            android:src="@drawable/geo"
+            android:background="@color/colorAccent2"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:background="@color/colorAccent2"
+                style="@style/Number"
+                android:src="@drawable/four"
+                />
+            <TextView
+
+                style="@style/Question"
+                android:text="@string/question4"
+
+             />
+
+
+        </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/answer_41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Luxembourg"
+     />
+    <CheckBox
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="China"
+
+        />
+    <CheckBox
+        android:id="@+id/answer_43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danemark"
+     />
+
+
+    <ImageView
+        android:background="@color/colorAccent"
+        style="@style/Category"
+        android:src="@drawable/musique"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Number"
+            android:src="@drawable/five"
+            />
+
+        <TextView
+
+            style="@style/Question"
+            android:text="@string/question5"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boney M"
+            />
+        <RadioButton
+            android:id="@+id/answer_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nina Simone" />
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bob Dylan"
+            />
+    </RadioGroup>
+    <ImageView
+    style="@style/Category"
+    android:src="@drawable/livre"
+    android:background="@color/colorAccent2"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@color/colorAccent2"
+            style="@style/Number"
+            android:src="@drawable/six"
+            />
+        <TextView
+            style="@style/Question"
+            android:text="@string/question6"
+            />
+
+
+    </LinearLayout>
+    <EditText
+
+        android:id="@+id/answer_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Réponse ..."
+        android:paddingBottom="@dimen/myPadding"/>
+    <ImageView
+        android:background="@color/colorAccent"
+        style="@style/Category"
+        android:src="@drawable/tv"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Number"
+            android:src="@drawable/seven"
+            />
+
+        <TextView
+
+            style="@style/Question"
+            android:text="@string/question7"
+            />
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/answer_71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breaking Bad"
+        />
+    <CheckBox
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Two and Half men"
+
+        />
+    <CheckBox
+        android:id="@+id/answer_73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Bing Band Theory"
+        />
+
+    <ImageView
+        style="@style/Category"
+        android:src="@drawable/cuisine"
+        android:background="@color/colorAccent2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@color/colorAccent2"
+            style="@style/Number"
+            android:src="@drawable/eight"
+            />
+        <TextView
+            style="@style/Question"
+            android:text="@string/question8"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/answer_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Réponse ..."
+        android:paddingBottom="@dimen/myPadding"/>
+
+
+    <ImageView
+        android:background="@color/colorAccent"
+        style="@style/Category"
+        android:src="@drawable/science"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@color/colorAccent"
+            style="@style/Number"
+            android:src="@drawable/nine"
+            />
+
+        <TextView
+            style="@style/Question"
+            android:text="@string/question9"
+            />
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marie Curie"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Louis Pasteur" />
+        <RadioButton
+            android:id="@+id/answer_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alexandre Fleming"
+            />
+    </RadioGroup>
+
+
+
+    <ImageView
+        style="@style/Category"
+        android:src="@drawable/paint"
+        android:background="@color/colorAccent2"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@color/colorAccent2"
+            style="@style/Number"
+            android:src="@drawable/ten"
+            />
+        <TextView
+            style="@style/Question"
+            android:text="@string/question10"
+            />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/answer_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Réponse ..."
+        android:paddingBottom="@dimen/myPadding"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="submitAnswers"
+        android:text="SUBMIT" />
+</LinearLayout>
+
+</ScrollView>
